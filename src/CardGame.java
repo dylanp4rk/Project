@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
 
- * @author Dylan Park
+ * @author Dylan Park, William Klemmer, Miguel Joshua David
  */
 public class CardGame {
     

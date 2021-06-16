@@ -7,7 +7,7 @@
 
 /**
  
- * @author Dylan Park
+ * @author Dylan Park, William Klemmer, Miguel Joshua David
  */
 public class Card {
 
