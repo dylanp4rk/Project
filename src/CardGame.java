@@ -2,9 +2,7 @@
 import java.util.Scanner;
 
 /**
- * A class that fills a magic hand of 7 cards with random Card Objects
- * and then asks the user to pick a card and searches the array of cards
- * for the match to the user's card. To be used as starting code in ICE 1
+
  * @author Dylan Park
  */
 public class CardGame {
@@ -12,6 +10,9 @@ public class CardGame {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter a cards suit and it's value to try and match "
+                + "with the computers randomized card if it is a match you "
+                + "win you have a 1 out of 52 chance good luck ");
         Card[] magicHand = new Card[1];
         
         for (int i=0; i<magicHand.length; i++)
